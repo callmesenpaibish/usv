@@ -1,0 +1,16 @@
+# ── Core Telegram framework ──────────────────────────────────────────────────
+pyrogram==2.0.106
+tgcrypto==1.2.5          # C-extension for high-speed AES — mandatory for speed
+
+# ── Download engines ─────────────────────────────────────────────────────────
+yt-dlp>=2024.11.18       # Keep up-to-date; platforms change constantly
+gallery-dl>=1.27.0       # Reddit galleries, Pinterest, DeviantArt, etc.
+
+# ── Video processing ─────────────────────────────────────────────────────────
+ffmpeg-python>=0.2.0     # Python bindings — ffmpeg binary must be on PATH
+
+# ── HTTP client (image fallback & misc requests) ─────────────────────────────
+httpx[http2]>=0.27.0
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+aiofiles>=23.2.1         # Async file I/O helpers (optional but handy)
